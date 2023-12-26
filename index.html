@@ -1,0 +1,86 @@
+<html>
+    <title>
+        Scientific Calculator
+    </title>
+    <head>
+        <link rel="icon" type="image/x-icon" href="photo/logo.png">
+        <link rel="stylesheet", href="css/style.css">
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="all-container">
+                <div class="left-side">
+                    <div class="lefts">
+
+                        <h1 class="rot"> Project No-01</h1>
+                        <h2> Created by oasim</h2>
+
+                    </div>
+
+                    
+
+                </div>
+                <div class="right-side">
+                    <h1>Calculetor</h1>
+                    <div class="cal">
+                        <input type="text", id="txtInput", placeholder="0", maxlength="10", disabled >
+                        <table class="tbt">
+                            <tr>
+                                
+                                <td><button id="btn",  onclick="clearData( )">AC</button></td>
+                                <td><button id="btn",  onclick="delData()">Del</button></td>
+                                <td><button id="btn",  onclick="storeData('(')">(</button></td>
+                                <td><button id="btn",  onclick="storeData(')')">)</button></td>
+                            </tr>
+                            <tr>
+                                
+                                <td><button id="btn",  onclick="storeData('sin(')">sin(</button></td>
+                                <td><button id="btn",  onclick="storeData('cos(')">cos(</button></td>
+                                <td><button id="btn",  onclick="storeData('tan(')">tan(</button></td>
+                                <td><button id="btn",  onclick="storeData('/')">/</button></td>
+                            </tr>
+                            <tr>
+                                
+                                <td><button id="btn",  onclick="storeData('^2')">x<sup>2</sup></button></td>
+                                <td><button id="btn",  onclick="storeData('^3')">x<sup>3</sup></button></td>
+                                <td><button id="btn",  onclick="storeData('√')">√</button></td>
+                                <td><button id="btn",  onclick="storeData('*')">*</button></td>
+                            </tr>
+                            <tr>
+                               
+                                <td><button id="btn",  onclick="storeData('7')">7</button></td>
+                                <td><button id="btn",  onclick="storeData('8')">8</button></td>
+                                <td><button id="btn",  onclick="storeData('9')">9</button></td>
+                                <td><button id="btn",  onclick="storeData('-')">-</button></td>
+                            </tr>
+                            <tr>
+                                
+                                <td><button id="btn",  onclick="storeData('4')">4</button></td>
+                                <td><button id="btn",  onclick="storeData('5')">5</button></td>
+                                <td><button id="btn",  onclick="storeData('6')">6</button></td>
+                                <td><button id="btn",  onclick="storeData('+')">+</button></td>
+                            </tr>
+                            <tr>
+                               
+                                <td><button id="btn",  onclick="storeData('1')">1</button></td>
+                                <td><button id="btn",  onclick="storeData('2')">2</button></td>
+                                <td><button id="btn",  onclick="storeData('3')">3</button></td>
+                                <td rowspan="2"><button class="btn",  onclick="calData()">=</button></td>
+                            </tr>
+                            <tr>
+                              
+                                <td><button id="btn",  onclick="storeData('0')">0</button></td>
+                                <td><button id="btn",  onclick="storeData('00')">00</button></td>
+                                <td><button id="btn",  onclick="storeData('.')">.</button></td>
+                                
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="css/index.js"></script>
+    </body>
+</html>
